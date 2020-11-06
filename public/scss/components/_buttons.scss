@@ -1,0 +1,47 @@
+button {
+  font-family: 'Nanum Square Bold', sans-serif;
+
+  &.btn-blue {
+    background: #4769E7;
+    color: white;
+  }
+
+  &.btn-red {
+    background: #F95847;
+    color: white;
+  }
+
+  &.btn-green {
+    background: #54F992;
+    color: white;
+  }
+
+  &.overlay {
+    position: fixed;
+    z-index: 99;
+    background-color: #519AD4;
+    color: white;
+    font-size: 20px;
+    font-family: 'Nanum Square Extra Bold', sans-serif;
+    text-align: center;
+
+    &.web {
+      width: 160px;
+      height: 60px;
+      border-radius: 12px;
+      box-shadow: 8px 8px 16px #00000026;
+      right: 30px;
+      bottom: 30px;
+    }
+
+    &.mobile {
+      height: 56px;
+      bottom: 0px;
+    }
+
+    &:hover {
+      background-color: #4769E7;
+      color: white;
+    }
+  }
+}

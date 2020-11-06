@@ -1,0 +1,144 @@
+/* === Import template variables === */
+/* === Template mixins === */
+/* === Core Styles === */
+@font-face {
+  font-family: 'Nanum Square Regular';
+  src: url("../fonts/nanum_square_regular.ttf");
+}
+
+@font-face {
+  font-family: 'Nanum Square Bold';
+  src: url("../fonts/nanum_square_bold.ttf");
+}
+
+@font-face {
+  font-family: 'Nanum Square Extra Bold';
+  src: url("../fonts/nanum_square_extra_bold.ttf");
+}
+
+.nav .navbar-brand #logo {
+  width: 60%;
+  padding: 10px 0;
+}
+
+.nav .navbar-collapse .nav-link {
+  padding: 15px;
+  color: #707070;
+  font-weight: 600;
+}
+
+/* Typography */
+body {
+  font-size: 1rem;
+  font-family: "Nanum Square Regular", sans-serif;
+  font-weight: initial;
+  line-height: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  word-break: keep-all;
+  white-space: -moz-pre-wrap;
+  white-space: -pre-wrap;
+  white-space: -o-pre-wrap;
+  word-wrap: break-word;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Nanum Square Bold", sans-serif;
+}
+
+p {
+  font-size: 0.875rem;
+}
+
+h1 {
+  font-size: 2.19rem;
+}
+
+h2 {
+  font-size: 1.88rem;
+}
+
+h3 {
+  font-size: 1.56rem;
+}
+
+h4 {
+  font-size: 1.13rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: .9375rem;
+}
+
+p {
+  font-size: .9375rem;
+  line-height: 1.5;
+}
+
+/* === Components === */
+button {
+  font-family: 'Nanum Square Bold', sans-serif;
+}
+
+button.btn-blue {
+  background: #4769E7;
+  color: white;
+}
+
+button.btn-red {
+  background: #F95847;
+  color: white;
+}
+
+button.btn-green {
+  background: #54F992;
+  color: white;
+}
+
+button.overlay {
+  position: fixed;
+  z-index: 99;
+  background-color: #519AD4;
+  color: white;
+  font-size: 20px;
+  font-family: 'Nanum Square Extra Bold', sans-serif;
+  text-align: center;
+}
+
+button.overlay.web {
+  width: 160px;
+  height: 60px;
+  border-radius: 12px;
+  -webkit-box-shadow: 8px 8px 16px #00000026;
+          box-shadow: 8px 8px 16px #00000026;
+  right: 30px;
+  bottom: 30px;
+}
+
+button.overlay.mobile {
+  height: 56px;
+  bottom: 0px;
+}
+
+button.overlay:hover {
+  background-color: #4769E7;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */
